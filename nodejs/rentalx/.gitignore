@@ -7,4 +7,6 @@ temp/
 coverage
 ormconfig.json
 dist
-tmp/.gitkeep
+tmp/*
+!tmp/.gitkeep
+
