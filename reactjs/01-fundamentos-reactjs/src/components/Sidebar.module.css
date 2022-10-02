@@ -19,9 +19,8 @@
 }
 
 .avatar {
-  box-sizing: initial;
-  width: 3rem;
-  height: 3rem;
+  width: calc(3rem + 12px);
+  height: calc(3rem + 12px);
   border-radius: 8px;
   border: 4px solid var(--gray-800);
   outline: 2px solid var(--green-500);
@@ -61,11 +60,10 @@
   justify-content: center;
 
   gap: 0.5rem;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in;
 }
 
 .sidebar footer a:hover {
   background: var(--green-500);
-  color: var(--white);
-
-  transition: color 0.2s, background-color 0.2s;
+  color: var(--white);  
 }
